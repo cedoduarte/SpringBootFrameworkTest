@@ -50,6 +50,6 @@ public class EmpleadoHandlerFactory implements IEmpleadoHandlerFactory {
     @Bean
     @Override
     public GetEmpleadoListHandler createGetEmpleadoListHandler() {
-        return new GetEmpleadoListHandler(empleadoRepository,mapper);
+        return new GetEmpleadoListHandler(empleadoRepository, mapper);
     }
 }

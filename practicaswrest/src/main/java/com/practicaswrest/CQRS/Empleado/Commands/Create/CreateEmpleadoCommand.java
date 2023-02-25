@@ -56,7 +56,5 @@ public class CreateEmpleadoCommand {
 
     public void setBirthdate(Date birthdate) {
         this.birthdate = birthdate;
-    }
-    
-    
+    }    
 }
