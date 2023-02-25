@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row vh-100 justify-content-center align-items-center">
+           <div class="col-auto p-5">
+                  <form class="empleado-crud-form col-md-1" autocomplete="on" [formGroup]="empleadoForm" (ngSubmit)="onSubmit()">
+                         <mat-form-field appearance="outline">
+                                <mat-label>Nombre</mat-label>
+                                <input formControlName="nombre"
+                                       id="nombre"
+                                       matInput
+                                       placeholder="Nombre"
+                                       type="text"/>
+                         </mat-form-field>
+                         <mat-form-field appearance="outline">
+                                <mat-label>Apellido</mat-label>
+                                <input formControlName="apellido"
+                                       id="apellido"
+                                       matInput
+                                       placeholder="Apellido"
+                                       type="text"/>
+                         </mat-form-field>
+                         <mat-form-field appearance="outline">
+                                <mat-label>Cédula</mat-label>
+                                <input formControlName="cedula"
+                                       id="cedula"
+                                       matInput
+                                       placeholder="Cédula"
+                                       type="text"/>
+                         </mat-form-field>
+                         <mat-form-field appearance="outline">
+                                <mat-label>Edad</mat-label>
+                                <input formControlName="edad"
+                                       id="edad"
+                                       matInput
+                                       placeholder="Edad"
+                                       type="text"/>
+                         </mat-form-field>
+                         <mat-form-field appearance="outline">
+                                <mat-label>Teléfono</mat-label>
+                                <input formControlName="telefono"
+                                       id="telefono"
+                                       matInput
+                                       placeholder="Teléfono"
+                                       type="text"/>
+                         </mat-form-field>
+                         <mat-form-field appearance="outline">
+                                <mat-label>Fecha de nacimiento</mat-label>
+                                <input formControlName="birthdate"
+                                       id="birthdate"
+                                       matInput
+                                       placeholder="Fecha de nacimiento"
+                                       type="text"/>
+                         </mat-form-field>
+                         <button type="button" class="btn btn-primary">OK</button>
+                  </form>
+           </div>
+    </div>    
+</div>
