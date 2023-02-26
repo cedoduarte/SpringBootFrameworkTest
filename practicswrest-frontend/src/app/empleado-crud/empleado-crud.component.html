@@ -1,1 +1,13 @@
-<p>Hola</p>
+<div class="container">
+    <div class="row vh-100 justify-content-center align-items-center">
+           <div class="col-auto p-5">
+                <span class="empleado-crud-title">Empleado CRUD</span>
+                <ul class="empleado-crud-list">
+                    <li><button (click)="insertRecord()" type="button" class="empleado-crud-button btn btn-primary">Crear registro de Empleado</button></li>
+                    <li><button (click)="updateRecord()" type="button" class="empleado-crud-button btn btn-primary">Actualizar registro de Empleado</button></li>
+                    <li><button (click)="deleteRecord()" type="button" class="empleado-crud-button btn btn-primary">Eliminar registro de Empleado</button></li>
+                    <li><button (click)="readRecord()" type="button" class="empleado-crud-button btn btn-primary">Ver tabla de registros de Empleado</button></li>
+                </ul>                
+           </div>
+    </div>
+</div>

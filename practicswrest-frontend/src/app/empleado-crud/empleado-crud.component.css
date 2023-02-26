@@ -1,0 +1,16 @@
+.empleado-crud-title {
+    position: relative;
+    left: 135px;
+}
+
+.empleado-crud-list {
+    list-style-type: none;
+}
+
+.empleado-crud-list li {
+    margin: 10px 0px 0px 0px;
+}
+
+.empleado-crud-button {
+    width: 300px;
+}

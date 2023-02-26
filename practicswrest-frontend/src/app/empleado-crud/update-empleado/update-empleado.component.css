@@ -1,0 +1,14 @@
+.empleado-crud-form {
+    position: relative;
+    width: 300px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.update-empleado-buttons {
+    position: relative;
+    left: 60px;
+    width: 100px;
+}

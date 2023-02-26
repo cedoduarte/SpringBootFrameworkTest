@@ -11,6 +11,7 @@ import { InsertEmpleadoComponent } from './empleado-crud/insert-empleado/insert-
 import { DeleteEmpleadoComponent } from './empleado-crud/delete-empleado/delete-empleado.component';
 import { UpdateEmpleadoComponent } from './empleado-crud/update-empleado/update-empleado.component';
 import { ReadEmpleadoComponent } from './empleado-crud/read-empleado/read-empleado.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ReadEmpleadoComponent } from './empleado-crud/read-empleado/read-emplea
     AppRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
